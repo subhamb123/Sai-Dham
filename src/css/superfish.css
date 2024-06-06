@@ -1,0 +1,169 @@
+
+.menu_block  {
+	background: url(../images/menu_bg.png) 0 0 repeat-x #cd853f;
+	z-index: 999;
+	position: relative;
+    /*height:50px;*/ /* Need to Check for menu height */
+}
+
+
+nav>.sf-menu {
+	z-index: 999;
+	position: relative;
+}
+nav{ position:relative;padding: 0px 0 0 0;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu li {float:left;position:relative; }
+.sf-menu>li {
+	z-index: 900;
+	float: left;
+position: relative;
+
+}
+
+.sf-menu>li+li {
+		background: url(../images/menu_Separator.png) 0 bottom no-repeat;
+
+}
+
+
+.sf-menu>li:first-child a {
+	min-width: 150px;
+}
+
+
+.sf-menu>li>ul>li {
+  float: none;
+  position: static;
+}
+
+
+.sf-menu>li>a{
+	text-align: center;
+	font-size: 16px;
+	text-shadow: 1px 1px #851811;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	padding: 20px 3px 20px;
+	min-width: 128px;
+   
+	display: block;
+	font-weight: bold;
+	position: relative;
+	/*text-transform: uppercase;*/
+	line-height: 0px;
+	z-index: 999;
+	position: static;
+	border-color: #012D06;
+}
+
+.sf-menu>li>a.sf-with-ul:after {
+	position: absolute;
+	content: '';
+	right: 40px;
+	width: 5px;
+	background: url(../images/arrows.png) 0 0;
+	height: 4px;
+	bottom: 39px;
+	pointer-events: none;
+	z-index: 999;
+}
+
+
+.sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li:hover>a:hover {
+	background: url(../images/menu_hover.png) 0 0 repeat;
+		text-shadow: 1px 1px #000;
+
+}
+
+.sf-menu>li>ul>li>a>span {
+	position: absolute;
+	width: 5px;
+	background: url(../images/arrows.png) no-repeat 0 bottom;
+	height: 4px;
+	right: -8px;
+	bottom: 5px;
+}
+
+
+.sf-menu>li>ul>li.sfHover>a>span {
+	background-position: 0 0;
+}
+
+
+
+
+.sf-menu a{
+	font-size: 16px; 
+	line-height: 11px; 
+	color:#fffefe;
+}
+
+
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover>ul{
+		top: 88px;
+	width: 159px;
+	left: 0px;
+	background: url(../images/sub_bg.png) 0 0 repeat;
+	z-index: 999; 
+padding-top: 18px;
+padding-bottom: 18px;
+
+
+}
+.sf-menu li ul li{
+	text-align: left; 
+	padding-left: 42px;
+	float: none !important; 
+}
+
+
+.sf-menu li ul li a{
+	font-size: 12px;
+	color: #8e8e8e;
+	position: relative;
+	text-transform: uppercase;
+	line-height: 34px;
+	z-index: 999;
+	position: relative;
+
+}
+
+.sf-menu li ul li+li {
+}
+
+.sf-menu li li a:hover, 
+.sf-menu li.sfHover li.sfHover>a {  
+	color: #fff;
+
+}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li.sfHover li.sfHover ul{
+	top: 53px !important;
+	padding: 3px 0  !important;
+	left: 159px !important;
+	width: 103px !important;
+	background: #a21710 !important;
+}
+
+.sf-menu li.sfHover li.sfHover li {
+	padding-left: 27px;
+}
+
+.sf-menu li.sfHover li.sfHover li a {
+	color: #000;
+}
+
+.sf-menu li.sfHover li.sfHover li a:hover {
+	color: #fff !important;
+}
+
+
+
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+
