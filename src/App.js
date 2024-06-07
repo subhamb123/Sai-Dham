@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -12,6 +11,8 @@ import AboutUs from "./pages/about-us";
 import Events from "./pages/events";
 import Resources from "./pages/resources";
 import ContactUs from "./pages/contact-us";
+import Login from "./pages/login";
+import SignUp from "./pages/sign-up";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/sign-up" element={<SignUp />} />
       </Routes>
     </Router>
   );

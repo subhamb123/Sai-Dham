@@ -184,6 +184,8 @@ const Home = () => {
              <footer>
                  <div className="container_12">
                      <h2>Jai Shri Sai</h2>
+                     <a href="/login" className="btn">Login</a>
+                     <a href="/sign-up" className="btn">Sign Up</a>
                  </div>
              </footer>
         </div>
