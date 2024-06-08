@@ -17,7 +17,7 @@ const SiteHeader = () => {
                  <nav className="">
                      <ul className="sf-menu">
                          
-                           <li  className="current "><a href="/">Home</a></li>
+                           <li><a href="/">Home</a></li>
                             <li><a href="/sai-baba">Sai Baba</a></li>
                             <li><a href="/guruji">Guruji</a></li>
                             <li><a href="/about-us">About us</a></li>
