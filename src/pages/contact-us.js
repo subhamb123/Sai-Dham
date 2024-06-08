@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../Components/Header";
+ 
  
 const ContactUs = () => {
     return (
@@ -98,41 +100,7 @@ const ContactUs = () => {
 
 </head>
 <body className="page1">
-
-    {/* <!--==============================header=================================--> */}
-    <header>
-        <div className="h_top">
-            <div className="container_12">
-                <div className="grid_12">
-                    <div className="header1">
-                        {/* <!--<img src="images/Project11-005_resize.jpg" width="100%" height="100%"/>--> */}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="container_12">
-            <div className="grid_12">
-                <div className="menu_block">
-
-                    <nav className="">
-                        <ul className="sf-menu">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/sai-baba">Sai Baba</a></li>
-                            <li><a href="/guruji">Guruji</a></li>
-                            <li><a href="/about-us">About us</a></li>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/resources">Resources</a></li>
-                            <li className="current "><a href="/contact-us">Contact us</a></li>
-                        </ul>
-                    </nav>
-                    <div className="clear"></div>
-                </div>
-            </div>
-        </div>
-
-
-    </header>
-
+<Header></Header>
     {/* <!--=======content================================--> */}
     <div className="content">
         <div className="container_12">
