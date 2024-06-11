@@ -545,7 +545,7 @@ const Events = () => {
 <body className="page1">
     
     
-<Header></Header>
+<Header current="Events"></Header>
 
     {/* <!--=======content================================--> */}
     <div className="content">

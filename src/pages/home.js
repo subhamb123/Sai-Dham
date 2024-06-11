@@ -8,7 +8,7 @@ import Header from "../Components/Header";
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Header current="Home"></Header>
 <div className="container_12">
     <div className="grid_3">
         <div className="box">

@@ -45,7 +45,7 @@ const AboutUs = () => {
 
 </head>
 <body className="page1">
-<Header></Header>
+<Header current="About us"></Header>
     {/* <!--=======content================================--> */}
     <div className="content">
         <div className="container_12">

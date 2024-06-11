@@ -49,7 +49,7 @@ const Guruji = () => {
 </head>
 <body className="page1">
     
-<Header></Header>
+<Header current="Guruji"></Header>
 
     <div className="container_12">
          <div className="slider_wrapper">

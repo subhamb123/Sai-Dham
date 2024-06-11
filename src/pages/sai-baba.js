@@ -45,7 +45,7 @@ const SaiBaba = () => {
 </head>
 <body className="page1">
 
-    <Header></Header>
+    <Header current = "Sai Baba"></Header>
 
     <div>
         <div className="container_12">

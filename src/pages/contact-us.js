@@ -100,7 +100,7 @@ const ContactUs = () => {
 
 </head>
 <body className="page1">
-<Header></Header>
+<Header current="Contact us"></Header>
     {/* <!--=======content================================--> */}
     <div className="content">
         <div className="container_12">

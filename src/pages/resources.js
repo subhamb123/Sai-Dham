@@ -71,7 +71,7 @@ const Resources = () => {
 
 </head>
 <body className="page1">
-    <Header></Header>
+    <Header current="Resources"></Header>
 
     {/* <!--=======content================================--> */}
     <div className="content">
