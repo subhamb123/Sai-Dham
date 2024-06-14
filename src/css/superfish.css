@@ -3,6 +3,7 @@
 	background: url(../images/menu_bg.png) 0 0 repeat-x #cd853f;
 	z-index: 999;
 	position: relative;
+	margin-bottom: 16px;
     /*height:50px;*/ /* Need to Check for menu height */
 }
 
@@ -28,7 +29,7 @@ position: relative;
 
 
 .sf-menu>li:first-child a {
-	min-width: 150px;
+	min-width: 114px;
 }
 
 
@@ -45,7 +46,7 @@ position: relative;
 	font-family: 'Ubuntu', sans-serif;
 	color: #fff;
 	padding: 20px 3px 20px;
-	min-width: 128px;
+	min-width: 114px;
    
 	display: block;
 	font-weight: bold;

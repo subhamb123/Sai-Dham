@@ -8,7 +8,7 @@ import Home from "./pages/home";
 import SaiBaba from "./pages/sai-baba";
 import Guruji from "./pages/guruji";
 import AboutUs from "./pages/about-us";
-import Events from "./pages/events";
+import Archive from "./pages/archive";
 import Resources from "./pages/resources";
 import ContactUs from "./pages/contact-us";
 import Login from "./pages/login";
@@ -22,7 +22,7 @@ function App() {
         <Route path="/sai-baba" element={<SaiBaba />} />
         <Route path="/guruji" element={<Guruji />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/archive" element={<Archive />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/login" element={<Login />} />

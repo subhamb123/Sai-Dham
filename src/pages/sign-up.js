@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
  
 const SignUp = () => {
     const [username, setUsername] = useState("");
@@ -15,6 +17,8 @@ const SignUp = () => {
 
     return (
         <div>
+            <Header current="Account"/>
+
     <form onSubmit={handleSubmit}>
         <fieldset>
         <legend>Sign Up</legend>
@@ -58,6 +62,12 @@ const SignUp = () => {
         <button type="submit">Sign Up</button>
         </fieldset>
     </form>
+
+    <h1 className="space">Already have an account? </h1>
+    <a href="/login" className="space btn">Login</a>
+
+    <Footer />
+
         </div>
     );
 };

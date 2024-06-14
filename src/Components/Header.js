@@ -1,6 +1,14 @@
+import "../styles.css"
+import "../css/camera.css"
+import "../css/autoscroll.css"
+
+import logo from "../images/logo.png";
+
 const SiteHeader = ({current}) => {
     return (
         <div>
+            <img src={logo} className="baba" alt="" />
+
             <header> 
      <div className="container_12">
          <div className="grid_5">
@@ -10,9 +18,9 @@ const SiteHeader = ({current}) => {
                         {current === 'Home'?
                            <li><a href="/">Home</a></li>
                            :<li  className="current "><a href="/">Home</a></li>}
-                        {current === "Events"?
-                            <li><a href="/events">Events</a></li>
-                            :<li className="current "><a href="/events">Events</a></li>}
+                        {current === "Archive"?
+                            <li><a href="/archive">Archive</a></li>
+                            :<li className="current "><a href="/archive">Archive</a></li>}
                         {current === "Account"?
                             <li><a href="/login">Account</a></li>
                             :<li className="current "><a href="/login">Account</a></li>}
