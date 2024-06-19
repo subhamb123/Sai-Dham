@@ -9,7 +9,7 @@ const Footer = ({current}) => {
                      <p></p>
                      <a href="/about-us" className="space btn">About Us</a>
                      <p></p>
-                     <a href="/resources" className="space btn">Resources</a>
+                     <a href="/archive" className="space btn">Archive</a>
                      <p></p>
                      <a href="/contact-us" className="space btn">Contact Us</a>
                  </div>

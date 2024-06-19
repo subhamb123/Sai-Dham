@@ -7,7 +7,7 @@ import logo from "../images/logo.png";
 const SiteHeader = ({current}) => {
     return (
         <div>
-            <img src={logo} className="baba" alt="" />
+            <img src={logo} className="logo" alt="" />
 
             <header> 
      <div className="container_12">
@@ -18,9 +18,9 @@ const SiteHeader = ({current}) => {
                         {current === 'Home'?
                            <li><a href="/">Home</a></li>
                            :<li  className="current "><a href="/">Home</a></li>}
-                        {current === "Archive"?
-                            <li><a href="/archive">Archive</a></li>
-                            :<li className="current "><a href="/archive">Archive</a></li>}
+                        {current === "Donate"?
+                            <li><a href="https://www.paypal.me/SaiParivarFoundation">Donate</a></li>
+                            :<li className="current "><a href="https://www.paypal.me/SaiParivarFoundation">Donate</a></li>}
                         {current === "Account"?
                             <li><a href="/login">Account</a></li>
                             :<li className="current "><a href="/login">Account</a></li>}

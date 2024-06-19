@@ -2,10 +2,15 @@ html {
 	background-color: black;
 }
 
-.baba {
+.logo {
     width: 100%;
   }
 
 .space{
   margin-left: 16px;
+}
+
+.baba{
+  margin-left: 16px;
+  margin-bottom: 16px;
 }

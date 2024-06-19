@@ -56,6 +56,8 @@ position: relative;
 	z-index: 999;
 	position: static;
 	border-color: #012D06;
+
+	text-decoration: none;
 }
 
 .sf-menu>li>a.sf-with-ul:after {

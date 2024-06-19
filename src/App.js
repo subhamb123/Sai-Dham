@@ -9,10 +9,10 @@ import SaiBaba from "./pages/sai-baba";
 import Guruji from "./pages/guruji";
 import AboutUs from "./pages/about-us";
 import Archive from "./pages/archive";
-import Resources from "./pages/resources";
 import ContactUs from "./pages/contact-us";
 import Login from "./pages/login";
 import SignUp from "./pages/sign-up";
+import Error from "./pages/404"
 
 function App() {
   return (
@@ -23,10 +23,10 @@ function App() {
         <Route path="/guruji" element={<Guruji />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/archive" element={<Archive />} />
-        <Route path="/resources" element={<Resources />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );
