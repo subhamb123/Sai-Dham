@@ -1,4 +1,4 @@
-const Footer = ({current}) => {
+const Footer = () => {
     return (
         <footer>
                  <div>
@@ -12,6 +12,8 @@ const Footer = ({current}) => {
                      <a href="/archive" className="space btn">Archive</a>
                      <p></p>
                      <a href="/contact-us" className="space btn">Contact Us</a>
+                     <p></p>
+                     <a href="https://www.facebook.com/ShirdiSaiDhamBellevue" className="space btn">Follow Us</a>
                  </div>
              </footer>
     )

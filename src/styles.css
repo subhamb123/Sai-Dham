@@ -12,7 +12,7 @@ a[href^="tel:"] {
 }
 body {
 	font: 13px/21px Arial, Helvetica, sans-serif;
-	color: #fff;
+	color: black;
 	position: relative;
 	/* min-width: 960px; */
 	/* background: url(images/back_all.jpg) fixed no-repeat #222225; */
@@ -48,7 +48,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:  'Ubuntu', sans-serif;
-	color: #fff;
+	color: black;
 	font-weight: bold;
 	text-transform: uppercase;
 		
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
 	font-size: 22px;
 	line-height: 32px;
-	color: #fff;
+	color: black;
 
 }
 
@@ -91,7 +91,7 @@ h6 {
 	margin-bottom: 19px;
 	/* border-bottom: 1px solid #636569; */
     text-transform:none;
-    color: #fff;
+    color: black;
     font-weight: normal;
 }
 
@@ -100,7 +100,7 @@ h6 {
 	padding-bottom: 16px;
 	margin-bottom: 19px;
     text-transform:none;
-    color: #fff;
+    color: black;
     font-weight: normal;
 }
 
@@ -409,7 +409,8 @@ header h1 a img {
 }
 
 .box {
-	background: #161616;
+	border-style: solid;
+	border-color: black;
 	padding: 13px 14px 27px;
 	text-align: center;
 	font-size: 12px;
@@ -438,7 +439,7 @@ header h1 a img {
 	font: bold 15px/20px 'Ubuntu', sans-serif;
 	text-transform: uppercase;
     text-decoration: underline;
-	color: #fff;
+	color: black;
 	margin-bottom: 5px;
 }
 
@@ -657,7 +658,7 @@ footer {
 	padding-bottom: 40px;
 	font: 12px/18px 'Ubuntu', sans-serif;
 	color: #8e8e8e;
-	background: #000;
+	/* background: #000; */
 	padding-top: 30px;
 
 }
