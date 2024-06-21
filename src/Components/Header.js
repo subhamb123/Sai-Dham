@@ -22,8 +22,8 @@ const SiteHeader = ({current}) => {
                             <li><a href="/sai-baba">Sai Baba</a></li>
                             :<li className="current "><a href="/sai-baba">Sai Baba</a></li>}
                         {current === "Account"?
-                            <li><a href="/login">Account</a></li>
-                            :<li className="current "><a href="/login">Account</a></li>}
+                            <li><a href="/login">Volunteer</a></li>
+                            :<li className="current "><a href="/login">Volunteer</a></li>}
                      </ul>
                  </nav>
                  <div className="clear"></div>
