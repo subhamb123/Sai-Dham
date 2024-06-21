@@ -18,9 +18,9 @@ const SiteHeader = ({current}) => {
                         {current === 'Home'?
                            <li><a href="/">Home</a></li>
                            :<li  className="current "><a href="/">Home</a></li>}
-                        {current === "Donate"?
-                            <li><a href="https://www.paypal.me/SaiParivarFoundation">Donate</a></li>
-                            :<li className="current "><a href="https://www.paypal.me/SaiParivarFoundation">Donate</a></li>}
+                        {current === "Baba"?
+                            <li><a href="/sai-baba">Sai Baba</a></li>
+                            :<li className="current "><a href="/sai-baba">Sai Baba</a></li>}
                         {current === "Account"?
                             <li><a href="/login">Account</a></li>
                             :<li className="current "><a href="/login">Account</a></li>}

@@ -7,7 +7,7 @@ import baba from "../images/Sai.png";
 const SaiBaba = () => {
     return (
         <div>
-            <Header />
+            <Header current="Baba" />
             <img src={baba} className="baba" alt="" />
 
             <div className="grid_3">

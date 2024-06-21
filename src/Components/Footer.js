@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
                  <div>
                      <h2 className="space">Shiridi Sai Dham</h2>
-                     <a href="/sai-baba" className="space btn">Who is Sai Baba?</a>
+                     <a href="https://www.paypal.me/SaiParivarFoundation" className="space btn">Donate</a>
                      <p></p>
                      <a href="/guruji" className="space btn">Who is Guruji?</a>
                      <p></p>
