@@ -14,8 +14,14 @@ import Login from "./pages/login";
 import SignUp from "./pages/sign-up";
 import Error from "./pages/404"
 
+import Login2 from "./Components/auth/login/index"
+import Register from "./Components/auth/signup/index"
+import { AuthProvider } from './contexts/authContext';
+
+
 function App() {
   return (
+   <AuthProvider>
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -27,8 +33,12 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="*" element={<Error />} />
+
+         <Route path="/login-test" element={<Login2 />} />
+         <Route path="/signup-test" element={<Register />} />
       </Routes>
     </Router>
+    </AuthProvider>
   );
 }
 
